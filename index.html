@@ -62,7 +62,7 @@
     
   <div class="cover-frame">
     <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
+      <img src="/images/cover2.jpg" alt="image frame" />
     </div>
     <div class="cover-inner text-center text-white">
       <h1><a href="/">Ali&#39;s Blog</a></h1>
@@ -91,11 +91,11 @@
   <script>
     try {
       var typed = new Typed("#subtitle", {
-        strings: ['A clean and elegant theme', 'It&#39;s perfect for your hexo blog', 'ave fun!'],
+        strings: ['The greatest of wealth is the richness of the soul.', 'Some beautiful paths can’t be discovered without getting lost.', ''],
         startDelay: 0,
         typeSpeed: 200,
         loop: true,
-        backSpeed: 100,
+        backSpeed: 0,
         showCursor: true
       });
     } catch (err) {
@@ -117,15 +117,13 @@
     fetch('https://api.sunnah.com/v1/hadiths/random', {
       headers: {
         'X-API-Key': 'SqD712P3E82xnwOAEOkGd5JZH8s9wRR24TqNFzjk',
-        'User-Agent' : 'ali-tahir',
         'Accept': '*/*',
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
+        'Host': 'ali-tahir.com'
       }
     })
         .then(response => response.json())
         .then(data => {
-            document.getElementById("broad").innerHTML = data.hadith.body;
+            document.getElementById("broad").innerHTML = data.hadith[0].body;
         })
         .catch(console.error)
 </script>
