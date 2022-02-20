@@ -114,10 +114,10 @@
     <div class="notice-content" id="broad"></div>
 </div>
 <script type="text/javascript">
-    fetch('https://freegeoip.app/json/')
+    fetch('https://api.quotable.io/random')
         .then(response => response.json())
         .then(data => {
-            document.getElementById("broad").innerHTML = data.country_name;
+            document.getElementById("broad").innerHTML = data.content+" - "+data.author;
         })
         .catch(console.error)
 </script>
