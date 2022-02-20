@@ -114,14 +114,10 @@
     <div class="notice-content" id="broad"></div>
 </div>
 <script type="text/javascript">
-    fetch('https://api.sunnah.com/v1/hadiths/random', {
-      headers: {
-        'X-API-Key': 'SqD712P3E82xnwOAEOkGd5JZH8s9wRR24TqNFzjk'
-      }
-    })
+    fetch('https://freegeoip.app/json/')
         .then(response => response.json())
         .then(data => {
-            document.getElementById("broad").innerHTML = data.hadith[0].body;
+            document.getElementById("broad").innerHTML = data.country_name;
         })
         .catch(console.error)
 </script>
