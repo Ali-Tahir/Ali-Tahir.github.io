@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ali&#39;s Blog</title>
+  
+  
+  <link href="https://ali-tahir.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://ali-tahir.github.io/"/>
+  <updated>2022-02-20T12:29:47.544Z</updated>
+  <id>https://ali-tahir.github.io/</id>
+  
+  <author>
+    <name>Ali Tahir</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Useful Student Benefits</title>
+    <link href="https://ali-tahir.github.io/2022/02/20/student-benefits/"/>
+    <id>https://ali-tahir.github.io/2022/02/20/student-benefits/</id>
+    <published>2022-02-20T11:13:22.000Z</published>
+    <updated>2022-02-20T12:29:47.544Z</updated>
+    
+    <content type="html"><![CDATA[<p>There are a lot of benefits for students out there that most people don’t know about. I’m sharing what I found and used.</p><h2 id="01-GitHub-Student-Developer-Pack">01 - GitHub Student Developer Pack</h2><p>You will get all the tools you’ll need to build and ship your projects like a star while you are a student. All you need is a University email that you’ll use to create a GitHub account or make it as primary email in your existing GitHub account and you are good to go for the application!</p><p>You will be asked to provide proof that you are currently, a student, and as they say, the whole process of approval can take up to 24 hours once you submit your application. I recommend checking your email once you applied you might get instant access like myself.</p><p><strong>Link</strong>: <a href="https://education.github.com/pack">https://education.github.com/pack</a></p><p>Some of the many cool things you’ll get for free.</p><ul><li>Free <strong>domain name</strong> registration for upto 1-year for your web projects .</li><li>Free <strong>DigitalOcean</strong> hosting.</li><li>Free <strong>subscription</strong> for few months to <strong>famous learning platforms</strong> like <strong>Pluralsight</strong>, <strong>DataCamp</strong>, <strong>Educative</strong> etc. that will help you learn and build all kind of great stuff.</li><li>Free access to <strong>Codecov</strong> on public and private repositories.</li><li><strong>Travis CI</strong> private builds for free while you’re a student.</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;There are a lot of benefits for students out there that most people don’t know about. I’m sharing what I found and used.&lt;/p&gt;
+&lt;h2 id=&quot;01-G</summary>
+      
+    
+    
+    
+    <category term="Learning" scheme="https://ali-tahir.github.io/categories/Learning/"/>
+    
+    <category term="Development" scheme="https://ali-tahir.github.io/categories/Learning/Development/"/>
+    
+    
+    <category term="Student" scheme="https://ali-tahir.github.io/tags/Student/"/>
+    
+    <category term="GitHub" scheme="https://ali-tahir.github.io/tags/GitHub/"/>
+    
+    <category term="Free" scheme="https://ali-tahir.github.io/tags/Free/"/>
+    
+    <category term="subscription" scheme="https://ali-tahir.github.io/tags/subscription/"/>
+    
+  </entry>
+  
+</feed>
